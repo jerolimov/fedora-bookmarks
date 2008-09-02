@@ -1,10 +1,12 @@
 Name:           fedora-bookmarks
-Version:        8
+Version:        10
 Release:        1
 Summary:        Fedora bookmarks
 Group:          Applications/Internet
 License:        GFDL
 URL:            http://fedoraproject.org/
+# I had to strip the embedded icons out of the bookmarks file, because they are not 
+# distributable under the GFDL. See https://bugzilla.redhat.com/show_bug.cgi?id=433471
 Source0:        default-bookmarks.html
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
@@ -36,6 +38,10 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
+* Tue Sep  2 2008 Tom "spot" Callaway <tcallawa@redhat.com> 10-1
+- fix bookmarks.html to not have embedded icons, they aren't usable under the GFDL.
+  resolves bz 433471
+
 * Wed Oct 17 2007 Matthias Clasen <mclasen@redhat.com> 8-1
 - Update the link to the Fedora project homepage  (#291851)
 
