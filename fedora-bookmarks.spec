@@ -1,6 +1,6 @@
 Name:           fedora-bookmarks
 Version:        10
-Release:        1
+Release:        2
 Summary:        Fedora bookmarks
 Group:          Applications/Internet
 License:        GFDL
@@ -38,6 +38,9 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
+* Tue Feb 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 10-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_11_Mass_Rebuild
+
 * Tue Sep  2 2008 Tom "spot" Callaway <tcallawa@redhat.com> 10-1
 - fix bookmarks.html to not have embedded icons, they aren't usable under the GFDL.
   resolves bz 433471
