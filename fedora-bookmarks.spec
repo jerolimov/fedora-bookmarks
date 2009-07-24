@@ -1,6 +1,6 @@
 Name:           fedora-bookmarks
 Version:        11
-Release:        1
+Release:        2
 Summary:        Fedora bookmarks
 Group:          Applications/Internet
 License:        GFDL
@@ -38,6 +38,9 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
+* Fri Jul 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 11-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_12_Mass_Rebuild
+
 * Fri May  1 2009 Christopher Aillon <caillon@redhat.com> - 11-1
 - Refresh Fedora Project link set
 - Add new Free Content link
