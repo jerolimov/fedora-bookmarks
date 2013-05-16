@@ -1,6 +1,6 @@
 Name:           fedora-bookmarks
 Version:        15
-Release:        1
+Release:        2%{?dist}
 Summary:        Fedora bookmarks
 Group:          Applications/Internet
 License:        GFDL
@@ -38,7 +38,7 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
-* Fri May  3 2013 Jan Horak <jhorak@redhat.com> - 15-1
+* Fri May  3 2013 Jan Horak <jhorak@redhat.com> - 15-2
 - Updated bookmarks
 
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 15-0.5
