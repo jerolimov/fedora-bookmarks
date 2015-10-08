@@ -1,6 +1,6 @@
 Name:           fedora-bookmarks
 Version:        22
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Fedora bookmarks
 Group:          Applications/Internet
 License:        GFDL
@@ -38,6 +38,9 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
+* Thu Oct  8 2015 Jan Horak <jhorak@redhat.com> - 22-3
+- Use https:// whenever it is possible
+
 * Wed Jun 17 2015 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 22-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_23_Mass_Rebuild
 
