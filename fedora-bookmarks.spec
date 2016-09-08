@@ -1,5 +1,5 @@
 Name:           fedora-bookmarks
-Version:        24
+Version:        25
 Release:        1%{?dist}
 Summary:        Fedora bookmarks
 Group:          Applications/Internet
@@ -38,6 +38,10 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
+* Thu Sep  8 2016 Paul W. Frields <stickster@gmail.com> - 25-1
+- Move Fedora Forum bookmark to http
+- Use network location for release notes
+
 * Thu May 19 2016 Paul W. Frields <stickster@gmail.com> - 24-1
 - Updated Fedora Magazine and added Community Blog
 
