@@ -1,6 +1,6 @@
 Name:           fedora-bookmarks
 Version:        25
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Fedora bookmarks
 Group:          Applications/Internet
 License:        GFDL
@@ -38,6 +38,9 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
+* Fri Feb 10 2017 Fedora Release Engineering <releng@fedoraproject.org> - 25-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
+
 * Thu Sep  8 2016 Paul W. Frields <stickster@gmail.com> - 25-1
 - Move Fedora Forum bookmark to http
 - Use network location for release notes
