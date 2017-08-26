@@ -1,6 +1,6 @@
 Name:           fedora-bookmarks
 Version:        27
-Release:        0%{?dist}
+Release:        1%{?dist}
 Summary:        Fedora bookmarks
 Group:          Applications/Internet
 License:        GFDL
