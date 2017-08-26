@@ -38,6 +38,10 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
+* Sat Aug 26 2017 Matthew Miller <mattdm@fedoraproject.org> - 27-1
+- put magazine link directly on toolbar
+- add social media communities to new folder
+
 * Sat Aug 26 2017 Matthew Miller <mattdm@fedoraproject.org> - 27-0
 - starting a series of edits and additions
 
