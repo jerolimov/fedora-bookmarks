@@ -1,5 +1,5 @@
 Name:           fedora-bookmarks
-Version:        27
+Version:        28
 Release:        1%{?dist}
 Summary:        Fedora bookmarks
 Group:          Applications/Internet
@@ -38,6 +38,9 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
+* Mon Sep 25 2017 Martin Stransky <stransky@redhat.com> - 28-1
+- Put Fedora forum under https://
+
 * Sat Aug 26 2017 Matthew Miller <mattdm@fedoraproject.org> - 27-1
 - put magazine link directly on toolbar
 - add social media communities to new folder
