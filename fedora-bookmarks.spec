@@ -8,7 +8,6 @@ URL:            http://fedoraproject.org/
 # I had to strip the embedded icons out of the bookmarks file, because they are not 
 # distributable under the GFDL. See https://bugzilla.redhat.com/show_bug.cgi?id=433471
 Source0:        default-bookmarks.html
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 Provides:       system-bookmarks
 
