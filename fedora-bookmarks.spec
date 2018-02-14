@@ -27,9 +27,6 @@ This package contains the default bookmarks for Fedora.
 install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 
 
-%clean
-%{__rm} -rf $RPM_BUILD_ROOT
-
 
 %files
 %defattr(-,root,root,-)
