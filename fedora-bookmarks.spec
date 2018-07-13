@@ -1,6 +1,6 @@
 Name:           fedora-bookmarks
 Version:        28
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Fedora bookmarks
 Group:          Applications/Internet
 License:        GFDL
@@ -33,6 +33,9 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
+* Fri Jul 13 2018 Fedora Release Engineering <releng@fedoraproject.org>
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
+
 * Sat Aug 26 2017 Matthew Miller <mattdm@fedoraproject.org> - 28-3
 - defattr no longer needed
 
