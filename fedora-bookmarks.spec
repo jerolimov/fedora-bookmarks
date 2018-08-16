@@ -36,7 +36,7 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 * Fri Jul 13 2018 Fedora Release Engineering <releng@fedoraproject.org>
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
 
-* Sat Aug 26 2017 Matthew Miller <mattdm@fedoraproject.org> - 28-3
+* Sat Jul 03 2018 Matthew Miller <mattdm@fedoraproject.org> - 28-3
 - defattr no longer needed
 
 * Wed Feb 07 2018 Fedora Release Engineering <releng@fedoraproject.org> - 28-2
