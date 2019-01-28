@@ -2,7 +2,6 @@ Name:           fedora-bookmarks
 Version:        28
 Release:        4%{?dist}
 Summary:        Fedora bookmarks
-Group:          Applications/Internet
 License:        GFDL
 URL:            http://fedoraproject.org/
 # I had to strip the embedded icons out of the bookmarks file, because they are not 
