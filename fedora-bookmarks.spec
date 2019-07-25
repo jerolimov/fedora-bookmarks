@@ -1,6 +1,6 @@
 Name:           fedora-bookmarks
 Version:        28
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Fedora bookmarks
 License:        GFDL
 URL:            http://fedoraproject.org/
@@ -32,6 +32,9 @@ install -p -m 644 %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/bookmarks
 %{_datadir}/bookmarks/default-bookmarks.html
 
 %changelog
+* Thu Jul 25 2019 Fedora Release Engineering <releng@fedoraproject.org> - 28-6
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_31_Mass_Rebuild
+
 * Thu Jan 31 2019 Fedora Release Engineering <releng@fedoraproject.org> - 28-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
 
